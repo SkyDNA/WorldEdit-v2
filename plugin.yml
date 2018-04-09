@@ -1,5 +1,5 @@
 ﻿name: WorldEdit
-main: WorldEdit\WorldEdit
+main: ByZikenPE\WorldEdit
 author: ByZikenPE
 version: 3.2
 api: [3.0.0-ALPHA11]
