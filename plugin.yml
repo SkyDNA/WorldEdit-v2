@@ -1,0 +1,45 @@
+﻿name: WorldEdit
+main: WorldEdit\WorldEdit
+author: ByZikenPE
+version: 3.2
+api: [3.0.0-ALPHA11]
+load: POSTWORLD
+description: So that the server does not stop out of the World editor
+commands:
+ /set:
+  description: Fill within the range
+  usage: //set <blockid>
+  permission: we.use
+ /cut:
+  description: Remove the selected area
+  usage: //cut
+  permission: we.use
+ /replace:
+  description: Replace id1 by id2
+  usage: //replace <id1> <id2>
+  permission: we.use
+ /wand:
+  description: Give you the Word édit wand ( like PC )
+  usage: //wand
+  permission: we.use
+ /editwand:
+  description: Change the wand id !
+  usage: //editwand
+  permission: we.use
+ /desel:
+  description: Delete pos selected
+  usage: //desel
+  permission: we.use
+ /limit:
+  description: Limit the amount of block
+  usage: //limit <amount>
+  permission: we.use
+ /undo:
+  description: Cancel Last action
+  usage: //undo
+  permission: we.use
+ /cancel:
+  description: stop action
+  usage: //cancel
+  permission: we.use
+
